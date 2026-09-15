@@ -2,8 +2,8 @@
 Your project's description...
 
 ## Environments
-- Preview: https://main--aem-boilerplate-xwalk--aemsitestrial.aem.page/
-- Live: https://main--aem-boilerplate-xwalk--aemsitestrial.aem.live/
+- Preview: https://main--agilekoala34739--aemsitestrial.aem.page/
+- Live: https://main--agilekoala34739--aemsitestrial.aem.live/
 
 ## Documentation
 
