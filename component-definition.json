@@ -114,7 +114,7 @@
         },
         {
           "title": "Latest Articles",
-          "id": "latestarticles",
+          "id": "latest-articles",
           "plugins": {
             "xwalk": {
               "page": {
