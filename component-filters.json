@@ -14,6 +14,7 @@
       "title",
       "hero",
       "cards",
+      "latest-articles",
       "columns",
       "fragment"
     ]
@@ -22,6 +23,12 @@
     "id": "cards",
     "components": [
       "card"
+    ]
+  },
+  {
+    "id": "latestarticles",
+    "components": [
+      "article"
     ]
   },
   {
@@ -37,12 +44,6 @@
       "image",
       "button",
       "title"
-    ]
-  },
-  {
-    "id": "latestarticles",
-    "components": [
-      "article"
     ]
   }
 ]
