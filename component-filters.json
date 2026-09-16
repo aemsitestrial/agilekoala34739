@@ -28,13 +28,15 @@
   {
     "id": "latestarticles",
     "components": [
-      "article"
+      "article",
+      "latestarticles"
     ]
   },
   {
     "id": "columns",
     "components": [
-      "column"
+      "column",
+      "latestarticles"
     ]
   },
   {
@@ -43,7 +45,8 @@
       "text",
       "image",
       "button",
-      "title"
+      "title",
+      "latestarticles"
     ]
   }
 ]
