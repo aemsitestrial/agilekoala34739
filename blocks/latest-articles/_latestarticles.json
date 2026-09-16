@@ -33,7 +33,7 @@
     ],
     "models": [
       {
-        "id": "article",
+        "id": "latestarticles",
         "fields": [
           {
             "component": "text",
