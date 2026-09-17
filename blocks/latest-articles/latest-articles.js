@@ -8,10 +8,12 @@ export default function decorate(block) {
     moveInstrumentation(row, li);
 
     const [label, category, title, link] = [...row.children];
-    const articleLink = link?.textContent?.trim() || '#';
+    const linkAnchor = link?.querySelector('a');
+    const articleLink = linkAnchor?.href || link?.textContent?.trim() || '#';
 
     const a = document.createElement('a');
     a.href = articleLink;
+    if (articleLink === '#') a.setAttribute('aria-disabled', 'true');
     moveInstrumentation(link, a);
 
     const meta = document.createElement('div');

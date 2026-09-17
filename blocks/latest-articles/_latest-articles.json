@@ -54,7 +54,7 @@
             "valueType": "string"
           },
           {
-            "component": "text",
+            "component": "aem-content",
             "name": "link",
             "label": "Link",
             "valueType": "string"
