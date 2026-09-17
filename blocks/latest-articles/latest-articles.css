@@ -40,10 +40,10 @@
 }
 
 .latest-articles .article-category {
-  color: var(--dark-color);
+  color: var(--text-color);
   font-family: var(--body-font-family);
   font-size: 12px;
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: 0.5px;
   text-transform: uppercase;
 }
@@ -57,16 +57,17 @@
 
 .latest-articles h3 {
   margin: 0;
-  font-size: var(--heading-font-size-xl);
-  font-weight: 600;
-  line-height: 1.25;
+  font-family: var(--heading-font-family);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.15;
   color: var(--text-color);
 }
 
 .latest-articles .article-arrow {
   flex: none;
-  font-size: 32px;
-  font-weight: 300;
+  font-size: 28px;
+  font-weight: 400;
   color: var(--text-color);
   transition: transform 0.2s ease, color 0.2s ease;
 }
@@ -82,12 +83,22 @@
   color: var(--link-color);
 }
 
+@media (width < 900px) {
+  .latest-articles h3 {
+    font-size: 32px;
+  }
+}
+
 @media (width < 600px) {
   .latest-articles .article-content {
     gap: 12px;
   }
 
+  .latest-articles h3 {
+    font-size: 26px;
+  }
+
   .latest-articles .article-arrow {
-    font-size: 24px;
+    font-size: 22px;
   }
 }
