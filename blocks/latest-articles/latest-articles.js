@@ -9,7 +9,8 @@ export default function decorate(block) {
     const articleLink = link?.textContent?.trim() || '#';
 
     li.innerHTML = `
-      <a href="${articleLink}" class="articlecle-meta">
+      ${articleLink}
+        <div class="article-meta">
           <span class="article-label">${label?.textContent || ''}</span>
           <span class="article-category">${category?.textContent || ''}</span>
         </div>
