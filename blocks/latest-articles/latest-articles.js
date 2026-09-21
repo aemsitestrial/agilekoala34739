@@ -8,16 +8,6 @@ export default function decorate(block) {
     moveInstrumentation(row, li);
 
     const [label, category, title, link] = [...row.children];
-
-    const hasContent =
-      label?.textContent?.trim()
-      || category?.textContent?.trim()
-      || title?.textContent?.trim();
-
-    if (!hasContent) {
-      return;
-    
-    }
     const linkAnchor = link?.querySelector('a');
     const articleLink = linkAnchor?.href || link?.textContent?.trim() || '#';
 

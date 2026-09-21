@@ -98,3 +98,23 @@
     font-size: 22px;
   }
 }
+
+/* Hide empty label */
+.latest-articles .article-label:empty {
+  display: none;
+}
+
+/* Hide empty category */
+.latest-articles .article-category:empty {
+  display: none;
+}
+
+/* Hide empty title */
+.latest-articles h3:empty {
+  display: none;
+}
+
+/* Hide arrow when title is empty */
+.latest-articles .article-content:has(h3:empty) .article-arrow {
+  display: none;
+}
