@@ -219,6 +219,22 @@
     "id": "article",
     "fields": [
       {
+        "component": "select",
+        "name": "testSelect",
+        "label": "Test Select",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Option 1",
+            "value": "option1"
+          },
+          {
+            "name": "Option 2",
+            "value": "option2"
+          }
+        ]
+      },
+      {
         "component": "text",
         "name": "label",
         "label": "Label",

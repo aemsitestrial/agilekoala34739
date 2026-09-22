@@ -32,35 +32,51 @@
       }
     ],
     "models": [
+  {
+    "id": "article",
+    "fields": [
       {
-        "id": "article",
-        "fields": [
+        "component": "select",
+        "name": "testSelect",
+        "label": "Test Select",
+        "valueType": "string",
+        "options": [
           {
-            "component": "text",
-            "name": "label",
-            "label": "Label",
-            "valueType": "string"
+            "name": "Option 1",
+            "value": "option1"
           },
           {
-            "component": "text",
-            "name": "category",
-            "label": "Category",
-            "valueType": "string"
-          },
-          {
-            "component": "text",
-            "name": "title",
-            "label": "Title",
-            "valueType": "string"
-          },
-          {
-            "component": "aem-content",
-            "name": "link",
-            "label": "Link"
+            "name": "Option 2",
+            "value": "option2"
           }
         ]
+      },
+      {
+        "component": "text",
+        "name": "label",
+        "label": "Label",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "category",
+        "label": "Category",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "title",
+        "label": "Title",
+        "valueType": "string"
+      },
+      {
+        "component": "aem-content",
+        "name": "link",
+        "label": "Link"
       }
-    ],
+    ]
+  }
+],
     "filters": [
       {
         "id": "latestarticles",
